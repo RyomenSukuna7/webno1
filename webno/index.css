@@ -1,0 +1,304 @@
+*{
+    user-select: none;
+}
+#hide{
+    visibility: hidden;
+}
+body{
+    background-color: white;
+}
+.main_bar_div{
+    position: fixed; 
+    width: 99%;
+    margin-top: -20px;
+    background-color: white;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+ul li{
+    list-style-type: none;
+    color: black;
+}
+.down{
+    margin-top:14px;
+}
+#name_company{
+    font-size: 38px;
+}
+#show{
+    display: none;
+}
+#click:hover #show{
+    display: block;
+    position: fixed;
+    margin-top: 10px;
+    color: black;
+    margin-left: -25px;
+}
+#space{
+    margin-top: 10px;
+}
+#about:hover{
+    color: green;
+    border-bottom: 1px solid green;
+    height: 24px;
+   
+}
+#click:hover{
+    color: green;
+}
+#space:hover{
+    color: green;
+    border-bottom: 1px solid green;
+    height: 24px;
+}
+#colour:hover{
+    color: green;
+    border-bottom: 1px solid green;
+    height: 24px;
+}
+/* #Contact:hover{
+    color: green;
+    border-bottom: 1px solid green;
+    height: 24px;
+} */
+#Feedback:hover{
+    color: green;
+    border-bottom: 1px solid green;
+    height: 24px;
+}
+#home{
+    color: green;
+    border-bottom: 1px solid green;
+    height: 24px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#main_image_container{
+    display: flex;
+    flex-wrap:nowrap ;
+    height: 642px;
+}
+#background_image{
+    /* display: flex;
+    flex-wrap: nowrap; */
+    overflow: hidden; 
+    margin-top: 10%;
+}
+@font-face {
+    font-family: kolbano;
+    src: url('./kolbano/Kolbano-regularItalic.otf');
+}
+#p1{
+    position: relative;
+    bottom: 110%;
+    left: 14%;
+    font-family: kolbano;
+    white-space: wrap;
+}
+#h1{
+    position: relative;
+    bottom: 114%;
+    left: 14%;
+    font-size: 55px;
+    white-space: wrap;
+}
+@font-face {
+    font-family:syamsul ;
+    src: url('./belgium/Belgium font/Belgium-Regular.otf');
+}
+#p2{
+    position: relative;
+    bottom: 116%;
+    left: 14%;
+    font-family: syamsul;
+    font-size: 21px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#card_div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 260px;
+    height: 310px;
+    background: #3405a3;
+    border-radius: 15px;
+    box-shadow: 1px 5px 60px 0px #100a886b;
+    margin-top: 12%;
+    margin-left: 10%;
+    
+   }
+   
+   .card .card-border-top {
+    width: 60%;
+    height: 3%;
+    background: #6b64f3;
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+   }
+   
+   .card span {
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    font-size: 16px;
+   }
+   
+   .card .job {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 14px;
+   }
+   
+   .card .img {
+    /* width: 70px;
+    height: 80px;
+    background: #6b64f3;
+    border-radius: 15px; */
+    margin: auto;
+    margin-top: 25px;
+   } 
+   
+   .card button {
+    padding: 8px 25px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    margin-top: 30px;
+    background: #6b64f3;
+    color: white;
+    font-weight: 600;
+   }
+   
+   .card button:hover {
+    background: #534bf3;
+   }
+
+.img1{
+    margin-top: 7px;
+    margin-left: 36%;
+}
+#content_main_div{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 22%;
+}
+/* #content_main_div #about_div1{
+    border: 2px splid red;
+    width: 30%;
+} */
+#h4{
+    white-space: nowrap;
+    margin-left: 40%;
+    font-size: 50px;
+}
+.p7{
+    margin-left: 40%;
+    white-space: nowrap;
+    font-size: 18px;
+}
+#side_image{
+    margin-left: 20%;
+}
+#contact_form{
+    margin-top: 5%;
+    margin-left: 14%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#webno_contact{
+    margin-left: 20%;
+}
+#contact1{
+    white-space: nowrap;
+}
+
+
+
+#social_media{
+    position: fixed;
+    top: 50%;
+    right: 0px;
+
+}
+#card {
+    width: fit-content;
+     height: fit-content; 
+    background-color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055); 
+    writing-mode: vertical-rl;
+
+  }
+  
+  /* for all social containers*/
+  .socialContainer {
+    width: 52px;
+    height: 52px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+  }
+  /* instagram*/
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+  }
+
+  /* Whatsapp*/
+  .containerFour:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  

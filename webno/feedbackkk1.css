@@ -1,0 +1,106 @@
+*{
+    user-select: none;
+}
+body{
+    background-color: white;
+}
+#backHome{
+    position: fixed;
+    top: 6px;
+    left: 0px; 
+    background-color: green;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+}
+#size{
+    font-size: 20px;
+}
+#backHome:hover{
+    background-color: gray;
+    color: black;
+}
+#main_div{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;  */
+    background-color: white;
+    position: fixed;
+    left: 40%;
+    top: 11%; 
+    box-shadow: 10px 10px 20px 4px black;
+    height: 470px;
+    width:390px;
+    
+}
+#parent1{
+    display: flex;
+}
+@font-face{
+    font-family:changeHeading ;
+    src: url('./aloevera-font/Aloevera-OVoWO.ttf');
+}
+#p1{
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     text-align: justify;
+     font-family: changeHeading;
+     font-size: 20px;
+     margin-left: 20px;
+}
+#parent2{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    font-size: 28px;
+    /* padding-right: 20px; */
+}
+.size_emoji{
+    margin-left: 32px;
+}
+.size_emoji:hover{
+    cursor: pointer;
+}
+#size_emoji1:hover{
+    transform: scale(-0.7) rotate(180deg);
+}
+#size_emoji2:hover{
+    transform: scale(-0.7) rotate(180deg);
+}
+#size_emoji3:hover{
+    transform: scale(-0.7) rotate(180deg);
+}
+#size_emoji4:hover{
+    transform: scale(-0.7) rotate(180deg);
+}
+#size_emoji5:hover{
+    transform: scale(-0.7) rotate(180deg);
+}
+#p2{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 20px;
+    white-space: wrap;
+}
+textarea{
+    resize: none;
+    margin-left: 20px;
+    display: flex;
+}
+#p3{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+input{
+    margin-left: 18px;
+}
+#input1{
+    width: 280px;
+    height: 50px;
+    border-radius: 20px;
+    padding-left: 14px;
+}

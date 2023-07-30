@@ -1,0 +1,120 @@
+body{
+    background-color: skyblue;
+}
+#main_div{
+    display: flex;
+    margin-left: 6%;
+    margin-top: 10%;
+}
+#parent{
+    margin-top: 1%;
+    margin-left: 10%;
+}
+#p1{
+    font-size: 24px;
+}
+#h2{
+    font-size: 30px;
+    margin-left: 1px;
+}
+#img1{
+    mix-blend-mode: multiply;
+    margin-left: 16%;
+    display: flex;
+}
+@font-face {
+    font-family: change;
+    src: url('./this-night/This Night/This\ Night.ttf');
+}
+#p2{
+    font-family: change;
+    font-size: 38px;
+}
+.dark{
+    font-weight: bolder;
+}
+.comman{
+    font-size: 20px;
+}
+
+*{
+    user-select: none;
+}
+#hide{
+    visibility: hidden;
+}
+
+
+.main_bar_div{
+    position: fixed; 
+    width: 99%;
+    margin-top: -90px;
+    background-color: white;
+    border-radius: 20px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+ul li{
+    list-style-type: none;
+    color: black;
+}
+.down{
+    margin-top:14px;
+}
+#name_company{
+    font-size: 38px;
+}
+#show{
+    display: none;
+}
+#click:hover #show{
+    display: block;
+    position: fixed;
+    margin-top: 10px;
+    color: black;
+    margin-left: -25px;
+}
+#space{
+    margin-top: 10px;
+}
+#home:hover{
+    color: green;
+    border-bottom: 1px solid green;
+    height: 24px;
+   
+}
+#click:hover{
+    color: green;
+}
+#space:hover{
+    color: green;
+    border-bottom: 1px solid green;
+    height: 24px;
+}
+#colour:hover{
+    color: green;
+    border-bottom: 1px solid green;
+    height: 24px;
+}
+/* #Contact:hover{
+    color: green;
+    border-bottom: 1px solid green;
+    height: 24px;
+} */
+#Feedback:hover{
+    color: green;
+    border-bottom: 1px solid green;
+    height: 24px;
+}
+#about{
+    color: green;
+    border-bottom: 1px solid green;
+    height: 24px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}

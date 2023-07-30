@@ -1,0 +1,81 @@
+body{
+    background-image: linear-gradient(to right,purple,pink);
+}
+#hide{
+    visibility: hidden;
+}
+.main_bar_div{
+    position: fixed; 
+    width: 99%;
+    margin-top: 4px;
+    background-color: black;
+    border-radius: 30px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+ul li{
+    list-style-type: none;
+    color: white;
+}
+.down{
+    margin-top:14px;
+}
+#name_company{
+    font-size: 38px;
+}
+#show{
+    display: none;
+}
+#click:hover #show{
+    display: block;
+    position: fixed;
+    margin-top: 10px;
+    color: white;
+    margin-left: -25px;
+}
+
+#space{
+    margin-top: 10px;
+}
+#about:hover{
+    color: green;
+    border-bottom: 1px solid green;
+    height: 24px;
+   
+}
+#home:hover{
+    color: green;
+    border-bottom: 1px solid green;
+    height: 24px;
+}
+#space:hover{
+    color: green;
+    border-bottom: 1px solid green;
+    height: 24px;
+}
+#click{
+    color: green;
+}
+/* #Contact:hover{
+    color: green;
+    border-bottom: 1px solid green;
+    height: 24px;
+} */
+#Feedback:hover{
+    color: green;
+    border-bottom: 1px solid green;
+    height: 24px;
+}
+#colour{
+    color: green;
+    border-bottom: 1px solid green;
+    height: 24px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
